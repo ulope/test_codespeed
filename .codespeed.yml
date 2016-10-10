@@ -1,5 +1,3 @@
-concurrency: 1
-
 defaults:
   job:
     commands:
