@@ -13,4 +13,4 @@ jobs:
   py34:
     image: python:3.4
   py35:
-    image: python:3.4
+    image: python:3.5
