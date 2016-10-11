@@ -13,7 +13,7 @@ def test_simple():
 
 @pytest.mark.timeit(n=100000, r=15, mode='fast')
 def test_hash():
-    hashlib.sha256(b"abcdefghijklmnopqrstuvwxyz")
+    hashlib.sha256(b"abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz")
 
 
 @pytest.mark.timeit(n=1000, r=3)
