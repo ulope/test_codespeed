@@ -6,7 +6,9 @@ import pytest
 
 @pytest.mark.timeit(n=1000, r=5, mode='fast')
 def test_simple():
-    time.sleep(0.0001 + 0.0001 * random.random())
+    s = ""
+    for i in range(1000):
+        s = s + "a"
 
 
 @pytest.mark.timeit(n=100000, r=15, mode='fast')
