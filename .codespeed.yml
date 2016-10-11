@@ -1,0 +1,16 @@
+defaults:
+  job:
+    commands:
+      - pip install tox
+      - "tox -e $JOB"
+    results_file: /code/.timeit.json
+
+jobs:
+  py27:
+    image: python:2.7
+  py33:
+    image: python:3.3
+  py34:
+    image: python:3.4
+  py35:
+    image: python:3.5
