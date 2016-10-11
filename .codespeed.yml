@@ -2,11 +2,8 @@ defaults:
   job:
     commands:
       - pip install tox
-      - echo hallo
-      - "echo '{\"test\": {\"id\": \"test\", \"min\": 0.5290000000002237, \"max\": 0.6080000000032726, \"mean\": 0.579800000000219, \"stdev\": 0.030375977351034693}}' > /timeit.json"
-      - ls -la /
-      - cat /timeit.json
-    results_file: /timeit.json
+      - "tox -e $JOB"
+    results_file: /code/.timeit.json
 
 jobs:
   py27:
