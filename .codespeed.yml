@@ -1,7 +1,7 @@
 defaults:
   job:
     commands:
-      - echo '{"test": {"id": "test", "min": 0.5290000000002237, "max": 0.6080000000032726, "mean": 0.579800000000219, "stdev": 0.030375977351034693}}' > /timeit.json
+      - "echo '{\"test\": {\"id\": \"test\", \"min\": 0.5290000000002237, \"max\": 0.6080000000032726, \"mean\": 0.579800000000219, \"stdev\": 0.030375977351034693}}' > /timeit.json"
     results_file: /timeit.json
 
 jobs:
