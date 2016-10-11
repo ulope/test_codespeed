@@ -18,4 +18,4 @@ def test_hash():
 
 @pytest.mark.timeit(n=1000, r=3)
 def test_hash_safe():
-    hashlib.sha256(b"abcdefghijklmnopqrstuvwxyz")
+    hashlib.sha256(b"abcdefghijklmnopqrstuvwxyz0")
