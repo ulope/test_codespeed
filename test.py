@@ -1,5 +1,4 @@
 import hashlib
-import random
 import time
 
 import pytest
