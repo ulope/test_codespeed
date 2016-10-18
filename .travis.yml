@@ -4,8 +4,8 @@ python:
   - 3.4
   - 3.5
 
-script: python -c 'import time; time.ssleep(5)'
+script: python -c 'import time; time.sleep(5)'
 
 notifications:
   webhooks:
-    - https://chat.brainbot.com/hooks/Akznu6uuRLJWHAumK/K4vDMe4q3ENxjYFrez6GYdkmP9J9adL6gaQhoiRMNumRgj8c
+    - secure: "q2bz+hZ+1QWhk4WvEl06HTm4PTm0FdVzEMRtLaatTwlnOqaYvVDiI5spb+x1Own6dV/pFbHjFln/E6t+cJJa5sPqtYMFLB5pTxvb3iYp6IKkDR7ZyWNMsRXETagEWX1+ptEHCOgqE9wM79oWKVxqlExcE4n2yXjVWK9bvv0i3LotuYUmWzrl3Xoc1L2EJV/k22gDMN/YBQFpVC7Rqx7tDm4LDtFvIqikAycOC8oDJgSM/uUfgWz6dhh5X7LZETc3oiM2k83QPlBAxE8q3Vmc1x5xxL/AHFJ6nbC8Nkw+sJDplviIhWtXs1O+y2BljBMq7LVKetg+0JGSBWHbn8AdvLEH8milrlWooocH8zNsdy5nEs4WUvARXDTd7TtCvEj1Eb3/tqp6rUZr9MPufPxvjsvMhKqr8URgKmuZq/jZ7ZfF/8ulf4VnQI9x5Up+Tw7oS3y5O52OmT65pZp76advufjbw3SgAky1J1GBXXHX81wM+wb/oQCQ6TV6oKwJvO/2vej7jgNSEFhHZGkikXjKWlNlOO2MwJa2tSGwHe9ZtpUlC8S+sgfqdF8ILj7aBNs1ZTCWBRXDbXiyoRZ/749bLZgrEKIXT8O3vWkBqi94NPe/iVoeRfXZe4QO8SiHlyOZhlqUi3xzCuke0lel7wvV4/NNuCicySFQBAHg4DBtN70="
