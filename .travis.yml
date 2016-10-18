@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python: 
+  - 3.4
+  - 3.5
+
+script: python -c 'import time; time.sleep(5)'
+
+notifications:
+  webhooks:
+    - https://chat.brainbot.com/hooks/Akznu6uuRLJWHAumK/K4vDMe4q3ENxjYFrez6GYdkmP9J9adL6gaQhoiRMNumRgj8c
